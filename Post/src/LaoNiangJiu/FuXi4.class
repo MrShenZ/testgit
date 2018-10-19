@@ -1,0 +1,108 @@
+[33mcommit 057d840aa5da4a5e719ed2b94c9f1d662573075f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Mr.Shen <995855732@qq.com>
+Date:   Wed Oct 17 21:58:59 2018 +0800
+
+    two version
+
+ Post/.classpath                               |   8 [32m++[m
+ Post/.project                                 |  17 [32m++++[m
+ Post/.settings/org.eclipse.jdt.core.prefs     |  11 [32m+++[m
+ Post/bin/LaoNiangJiu/FileCommand.class        | Bin [31m0[m -> [32m2622[m bytes
+ Post/bin/com/Blog/BlogApp.class               | Bin [31m0[m -> [32m4151[m bytes
+ Post/bin/com/Blog/BlogAppException.class      | Bin [31m0[m -> [32m710[m bytes
+ Post/bin/com/Blog/Post.class                  | Bin [31m0[m -> [32m1551[m bytes
+ Post/bin/com/Blog/PostReposiotyByMap.class    | Bin [31m0[m -> [32m4295[m bytes
+ Post/bin/com/Blog/PostRepository.class        | Bin [31m0[m -> [32m424[m bytes
+ Post/bin/com/FuXi/BlogApp.class               | Bin [31m0[m -> [32m1034[m bytes
+ Post/bin/com/FuXi/BlogAppException.class      | Bin [31m0[m -> [32m780[m bytes
+ Post/bin/com/FuXi/FilePostRepository.class    | Bin [31m0[m -> [32m4021[m bytes
+ Post/bin/com/FuXi/FuXi.class                  | Bin [31m0[m -> [32m2824[m bytes
+ Post/bin/com/FuXi/FuXi2.class                 | Bin [31m0[m -> [32m1678[m bytes
+ Post/bin/com/FuXi/FuXi3.class                 | Bin [31m0[m -> [32m1936[m bytes
+ Post/bin/com/FuXi/FuXi4.class                 | Bin [31m0[m -> [32m2563[m bytes
+ Post/bin/com/FuXi/FuXi5.class                 | Bin [31m0[m -> [32m6186[m bytes
+ Post/bin/com/FuXi/FuXi6.class                 | Bin [31m0[m -> [32m3921[m bytes
+ Post/bin/com/FuXi/Post.class                  | Bin [31m0[m -> [32m1779[m bytes
+ Post/bin/com/FuXi/PostJiCheng.class           | Bin [31m0[m -> [32m759[m bytes
+ Post/bin/com/FuXi/PostRepository.class        | Bin [31m0[m -> [32m360[m bytes
+ Post/bin/com/FuXi/PostRepositoryByList.class  | Bin [31m0[m -> [32m1386[m bytes
+ Post/bin/com/FuXi/PostRepositoryByMap$1.class | Bin [31m0[m -> [32m911[m bytes
+ Post/bin/com/FuXi/PostRepositoryByMap.class   | Bin [31m0[m -> [32m2799[m bytes
+ Post/bin/commons-io-2.6.jar                   | Bin [31m0[m -> [32m214788[m bytes
+ Post/lie/commons-io-2.6.jar                   | Bin [31m0[m -> [32m214788[m bytes
+ Post/src/LaoNiangJiu/FileCommand.java         |  66 [32m++++++++++++++[m
+ Post/src/com/Blog/BlogApp.java                |  88 [32m+++++++++++++++++++[m
+ Post/src/com/Blog/BlogAppException.java       |  12 [32m+++[m
+ Post/src/com/Blog/Post.java                   |  38 [32m++++++++[m
+ Post/src/com/Blog/PostReposiotyByMap.java     |  77 [32m++++++++++++++++[m
+ Post/src/com/Blog/PostRepository.java         |  12 [32m+++[m
+ Post/src/com/FuXi/BlogApp.java                |  27 [32m++++++[m
+ Post/src/com/FuXi/BlogAppException.java       |  13 [32m+++[m
+ Post/src/com/FuXi/FilePostRepository.java     |  69 [32m+++++++++++++++[m
+ Post/src/com/FuXi/FuXi.java                   |  79 [32m+++++++++++++++++[m
+ Post/src/com/FuXi/FuXi2.java                  |  26 [32m++++++[m
+ Post/src/com/FuXi/FuXi3.java                  |  65 [32m++++++++++++++[m
+ Post/src/com/FuXi/FuXi4.java                  |  52 [32m+++++++++++[m
+ Post/src/com/FuXi/FuXi5.java                  | 122 [32m++++++++++++++++++++++++++[m
+ Post/src/com/FuXi/FuXi6.java                  |  67 [32m++++++++++++++[m
+ Post/src/com/FuXi/Post.java                   |  47 [32m++++++++++[m
+ Post/src/com/FuXi/PostJiCheng.java            |  18 [32m++++[m
+ Post/src/com/FuXi/PostRepository.java         |  12 [32m+++[m
+ Post/src/com/FuXi/PostRepositoryByList.java   |  30 [32m+++++++[m
+ Post/src/com/FuXi/PostRepositoryByMap.java    |  52 [32m+++++++++++[m
+ Post/text.txt                                 |   1 [32m+[m
+ 47 files changed, 1009 insertions(+)
+
+[33mcommit 2ad867f2ad80ebe79ace9e59fea494ac8a7c82f7[m
+Author: Mr.Shen <995855732@qq.com>
+Date:   Wed Oct 17 21:30:06 2018 +0800
+
+    version
+
+ WORLD/.classpath                                   |   9 [32m++[m
+ WORLD/.project                                     |  17 [32m++++[m
+ WORLD/.settings/org.eclipse.jdt.core.prefs         | 105 [32m+++++++++++++++++++++[m
+ .../bin/com/GluttonousSnake1/GameController.class  | Bin [31m0[m -> [32m309[m bytes
+ WORLD/bin/com/GluttonousSnake1/Grid.class          | Bin [31m0[m -> [32m326[m bytes
+ WORLD/bin/com/GluttonousSnake1/Snake.class         | Bin [31m0[m -> [32m282[m bytes
+ WORLD/bin/com/GluttonousSnake1/SnakeApp.class      | Bin [31m0[m -> [32m291[m bytes
+ WORLD/bin/com/woaixuexi/BC1.class                  | Bin [31m0[m -> [32m1017[m bytes
+ WORLD/bin/com/woaixuexi/Car.class                  | Bin [31m0[m -> [32m630[m bytes
+ WORLD/bin/com/woaixuexi/God.class                  | Bin [31m0[m -> [32m519[m bytes
+ WORLD/bin/com/woaixuexi/Post.class                 | Bin [31m0[m -> [32m1809[m bytes
+ WORLD/bin/com/woaixuexi/Zt.class                   | Bin [31m0[m -> [32m560[m bytes
+ WORLD/bin/com/woaixuexi/xuexiNum2.class            | Bin [31m0[m -> [32m1267[m bytes
+ WORLD/bin/com/woaixuexi2/YunSuanFu.class           | Bin [31m0[m -> [32m1439[m bytes
+ WORLD/bin/com/woaixuexi3/MyBlog.class              | Bin [31m0[m -> [32m1227[m bytes
+ WORLD/bin/com/woaixuexi3/XunHuan.class             | Bin [31m0[m -> [32m1557[m bytes
+ WORLD/bin/com/woaixuexi3/XunHuan2.class            | Bin [31m0[m -> [32m1022[m bytes
+ WORLD/bin/com/woaixuexi4/Car.class                 | Bin [31m0[m -> [32m516[m bytes
+ WORLD/bin/com/woaixuexi4/Engine.class              | Bin [31m0[m -> [32m294[m bytes
+ WORLD/bin/com/woaixuexi4/MakeLei.class             | Bin [31m0[m -> [32m1079[m bytes
+ WORLD/bin/com/woaixuexi4/Post.class                | Bin [31m0[m -> [32m600[m bytes
+ WORLD/bin/com/woaixuexi5/Car.class                 | Bin [31m0[m -> [32m1219[m bytes
+ WORLD/bin/com/woaixuexi5/CreateLei.class           | Bin [31m0[m -> [32m1633[m bytes
+ WORLD/bin/com/woaixuexi5/Engine.class              | Bin [31m0[m -> [32m353[m bytes
+ WORLD/bin/com/woaixuexi5/Post.class                | Bin [31m0[m -> [32m836[m bytes
+ WORLD/bin/com/woaixuexi5/UseCar.class              | Bin [31m0[m -> [32m580[m bytes
+ WORLD/bin/com/woaixuexi6/Post.class                | Bin [31m0[m -> [32m2294[m bytes
+ WORLD/bin/com/woaixuexi6/ZiFuChuan.class           | Bin [31m0[m -> [32m1587[m bytes
+ WORLD/bin/com/woaixuexi6/ZiFuChuan2.class          | Bin [31m0[m -> [32m1545[m bytes
+ WORLD/bin/com/woaixuexi6/ZiFuChuan3.class          | Bin [31m0[m -> [32m1278[m bytes
+ WORLD/bin/com/woaixuexi7/Post.class                | Bin [31m0[m -> [32m3043[m bytes
+ WORLD/bin/com/woaixuexi8/Container.class           | Bin [31m0[m -> [32m1362[m bytes
+ WORLD/bin/com/woaixuexi8/Point.class               | Bin [31m0[m -> [32m1309[m bytes
+ WORLD/bin/com/woaixuexi8/Point1.class              | Bin [31m0[m -> [32m1756[m bytes
+ WORLD/bin/com/woaixuexi8/Printer.class             | Bin [31m0[m -> [32m1340[m bytes
+ WORLD/bin/com/woaixuexi8/ShiZhan.class             | Bin [31m0[m -> [32m699[m bytes
+ WORLD/bin/com/woaixuexi8/Triple.class              | Bin [31m0[m -> [32m2190[m bytes
+ WORLD/bin/com/woaixuexi9and12/PostJiHeByMap.class  | Bin [31m0[m -> [32m2686[m bytes
+ .../PostYingSheByList$PostYingShe.class            | Bin [31m0[m -> [32m495[m bytes
+ .../com/woaixuexi9and12/PostYingSheByList.class    | Bin [31m0[m -> [32m2254[m bytes
+ WORLD/bin/com/woaixuexi9b/Graph.class              | Bin [31m0[m -> [32m916[m bytes
+ WORLD/bin/com/woaixuexi9b/Rectangle.class          | Bin [31m0[m -> [32m1289[m bytes
+ WORLD/bin/com/woaixuexi9b/TxtPostRepository.class  | Bin [31m0[m -> [32m807[m bytes
+ WORLD/bin/com/woaixuexi9c/Cat$LuQiDongWu.class     | Bin [31m0[m -> [32m285[m bytes
+ WORLD/bin/com/woaixuexi9c/Cat.class                | Bin [31m0[m -> [32m884[m bytes
+ WORLD/bin/com/woaixuexi9c/Graph$Animal.class       | Bin [31m0[m -> [32m276[m bytes
+ WORLD/bin/com/woaixuexi9c/Graph.class              | Bin [31m0[m -
